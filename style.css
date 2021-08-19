@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d8cfcf;
+    padding: 50px;
+}
+
+main {
+    width: 50vw;
+    margin: auto;
+    background-color: #f3e9e9;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+.my-image {
+
+    text-align: center;
+    width: 300px;
+    
+    height: 300px;
+    border-radius: 300px;
+    border-color: red;
+    border-width: 5px;
+    margin: 0px auto 20px;
+    overflow: hidden;
+}
+
+.my-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 50px 50px 0px 0px;
+    border-top: solid 2px solid;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.container section {
+    margin: 25px auto;
+}
+
+.name {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attribute {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.attribute div {
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px #f3e9e9;
+    width: 30%;
+}
+
+.attribute a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid #e6c3c3;
+    font-weight: bolder;
+    color: red;
+}
+
+.attribute a:hover {
+    background-color: #e6c3c3;
+    color: red;
+    text-decoration: underline;
+}
+
+.story h3 {
+    margin: 10px 0px;
+}
+
+.story p {
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom:  25px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+        padding: 25px 15px;
+    }
+
+    nav {
+        padding: 25px;
+    }
+    
+    main {
+        width: 99%;
+    }
+
+    .my-image {
+
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        margin: 0px auto 10px;
+    }
+
+}
